@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS of entire contents of webpage */
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+	background: url("old_library.jpeg") no-repeat;
+	background-size: 100vw;
+	background-attachment: fixed;
+	padding: 3vw;
+}
+
+.header{
+    font-size: 3vw;
+    font-family: 'Teko', sans-serif;
+    color: #3effda;
+}
+
+.text{
+	font-size: 1vw;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.para{
+	width: 50%;
+    border-left-style: solid;
+    border-width: 7px;
+    border-color: white;
+	background-color: rgba(3,21,36,0.8);
+	margin: 0;
+	padding: 5vw;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+
+.carousel-inner .carousel-item {
+	transition: -webkit-transform 1.3s ease;
+	transition: transform 1.3s ease;
+	transition: transform 1.3s ease, -webkit-transform 1.3s ease;
+}
+img {
+	object-fit: cover;
+	width: 100%;
+	box-shadow: 10 10 10px 10px white inset;
+}
+#carousel_pics {
+	margin: 90px;
+	position: relative;
+}
+
+
+
+
+
+
+
